@@ -5,4 +5,5 @@ def agregar_producto(inventario, producto):
 productos = ["arroz", "aceite"]
 agregar_producto(productos, "café")
 
-print(productos)
+for producto in productos:
+    print(producto)
